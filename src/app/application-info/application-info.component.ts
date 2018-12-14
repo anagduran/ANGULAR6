@@ -7,5 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ApplicationInfoComponent {
   info: string;
+  constructor() {
+    this.info = 'mi primer componente';
+  }
 }
 

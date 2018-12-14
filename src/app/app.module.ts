@@ -15,6 +15,6 @@ import { ApplicationInfoComponent } from './application-info/application-info.co
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ApplicationInfoComponent]
 })
 export class AppModule { }
